@@ -13,3 +13,40 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+
+.row {
+  clear: both;
+}
+
+.limited {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  padding: 0 2vw;
+  margin: 0 0 .75rem 0;
+}
+
+.small-12 {
+  width: 100%;
+}
+
+footer {
+  background-color: #9b87b8;
+  font-size: 1.2rem;
+}
+
+footer h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 1rem 0 0.3rem 0;
+}
+
+/* Insere conteúdo após os elementos em float para preservar o footer */
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
