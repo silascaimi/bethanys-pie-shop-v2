@@ -19,16 +19,18 @@
     width: 33.33333%;
   }
 
-  nav button {
-    display: none;
-  }
-
-  nav ul {
-    display: block;
-  }
-
-  nav li {
-    width: 25%;
-    float: left;
+  nav {
+    button {
+      display: none;
+    }
+  
+    ul {
+      display: block;
+    }
+  
+    li {
+      width: 25%;
+      float: left;
+    }
   }
 }

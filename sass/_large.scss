@@ -3,15 +3,17 @@
     width: 25%;
   }
 
-  nav ul {
-    margin-left: 2vw;
-  }
-
-  nav li {
-    width: auto;
-  }
+  nav {
+    ul {
+      margin-left: 2vw;
+    }
   
-  nav a {
-    padding: 0.7rem 1rem;
+    li {
+      width: auto;
+    }
+    
+    a {
+      padding: 0.7rem 1rem;
+    }
   }
 }
